@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>ModerlViewerを使ったWebARページ</title>
+  </head>
+  <body>
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+
+  </script>
+
+    <model-viewer
+    ar
+    alt="akaseモデル"
+    src="akase_01_android.glb"
+    ios-src="akase_01_iphone.usdz"
+    environment-image="sepulchral_chapel_rotunda_1k.hdr"
+    auto-rotate
+         camera-controls
+
+         style="width:1200px;height:1800px;"
+
+                       background-color="#70BCD1"
+                       shadow-intensity="0.7"
+                       camera-controls
+                       interaction-prompt="auto"
+                       auto-rotate ar magic-leap>
+
+
+    </model-viewer>
+  </body>
+</html>
