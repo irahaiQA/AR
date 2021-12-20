@@ -5,6 +5,29 @@
     <title>AR手のひら赤瀬くん</title>
   </head>
   <body>
+
+    <model-viewer
+
+    id="pan-demo"
+    auto-rotate camera-controls oncontextmenu="return false;"
+
+    ar
+    alt="akaseモデル"
+    src="akase_01_android.glb"
+    ios-src="akase_01_iphone.usdz"
+    environment-image="sepulchral_chapel_rotunda_1k.hdr"
+
+        style="width:100%;height:1800px;"
+
+                       background-color="#70BCD1"
+                       shadow-intensity="0.7"
+                      interaction-prompt="auto"
+                    >
+
+
+    </model-viewer>
+
+
   <script type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
 
@@ -119,28 +142,6 @@
 
   </script>
 
-    <model-viewer
 
-    id="pan-demo"
-    auto-rotate camera-controls oncontextmenu="return false;"
-
-    ar
-    alt="akaseモデル"
-    src="akase_01_android.glb"
-    ios-src="akase_01_iphone.usdz"
-    environment-image="sepulchral_chapel_rotunda_1k.hdr"
-    auto-rotate
-         camera-controls
-
-        style="width:100%;height:1800px;"
-
-                       background-color="#70BCD1"
-                       shadow-intensity="0.7"
-                       camera-controls
-                       interaction-prompt="auto"
-                       auto-rotate ar magic-leap>
-
-
-    </model-viewer>
   </body>
 </html>
