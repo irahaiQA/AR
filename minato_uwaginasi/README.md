@@ -1,3 +1,3 @@
 # AR
 手のひらみなとくん
-https://irahaiqa.github.io/AR/minato_uwginasi
+https://irahaiqa.github.io/AR/minato_uwginasi/
